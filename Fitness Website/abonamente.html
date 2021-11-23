@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+
+
+
+  <title>Fitness Gym</title>
+</head>
+<body>
+  <div class="topnav">
+  <a href="#home" class="active">FIT & LIFT GYM</a>
+
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="despre noi.html">Despre Noi</a>
+    <a href="prezentare.html">Prezentare</a>
+    <a href="abonamente.html">Preturi</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}</script>
+
+<div class="abonamente-container">
+</div>
+
+<div class="container-abonamente">
+  <div class="rows">
+    <div class="col-lg-4-abonament">
+      <p>ABONAMENT TINERI</p>
+      <hr>
+      <p>Pret abonament lunar 50% mai ieftin, pentru orice tanar sub 18 ani.</p>
+      <hr>
+      <p>PRET: 50 LEI</p>
+    </div>
+    <div class="col-lg-4-abonament">
+      <p>ABONAMENT REGULAR</p>
+      <hr>
+      <p>Abonament lunar pentru orice persoana de la 18+ ani.Pretul este normal</p>
+      <hr>
+      <p>PRET: 100 LEI</p>
+    </div>
+    <div class="col-lg-4-abonament">
+      <p>ABONAMENT + ANTRENOR</p>
+      <hr>
+      <p>Abonament regular plus un trainer personal care te va antrena.</p>
+      <hr>
+      <a href="contact.html">
+      <button id="pret-button" type="submit" >Contact</button>
+    </a>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  </body>
+</html>
